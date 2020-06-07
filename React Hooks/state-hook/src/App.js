@@ -11,12 +11,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				{/* <ClassCounter />
-				<ClassCounterTwo />
-				<HookCounter />
-				<HookCounterTwo />
-				<HookCounterThree /> */}
-				<HookCounterFour />
+				<HookCounterFour/>
 			</div>
 		)
 	}

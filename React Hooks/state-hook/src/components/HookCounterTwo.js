@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 
 function HookCounterTwo() {
-	const initialCount = 0
-	const [count, setCount] = useState(initialCount)
+	const initialCount = 0;
+	const [count, setCount] = useState(initialCount);
 	const incrementFive = () => {
 		for (let i = 0; i < 5; i++) {
-			setCount(prevCount => prevCount + 1)
+			setCount(prevCount => prevCount + 1);
 		}
-	}
+	};
 	return (
 		<>
 			Count: {count}
@@ -23,4 +23,4 @@ function HookCounterTwo() {
 	)
 }
 
-export default HookCounterTwo
+export default HookCounterTwo;

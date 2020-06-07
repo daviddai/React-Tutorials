@@ -13,14 +13,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				{/* <ClassCounterOne /> */}
-				{/* <HookCounterOne /> */}
-				{/* <ClassMouse></ClassMouse> */}
-				{/* <HookMouse></HookMouse> */}
-				{/* <MouseContainer /> */}
-				{/* <IntervalClassCounter></IntervalClassCounter> */}
-				{/* <IntervalHookCounter></IntervalHookCounter> */}
-				<DataFetching />
+				<IntervalHookCounter/>
 			</div>
 		)
 	}
