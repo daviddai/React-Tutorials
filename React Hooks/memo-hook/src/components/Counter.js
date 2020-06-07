@@ -12,7 +12,7 @@ function Counter() {
         setCounterTwo(counterTwo + 1)
     };
 
-    // useMemo stores the result of the function returns
+    // useMemo caches the result of the function returns
     const isEven = useMemo(() => {
         let i = 0;
         while (i < 2000000000) {
