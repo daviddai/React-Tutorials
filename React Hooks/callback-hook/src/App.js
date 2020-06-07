@@ -1,6 +1,6 @@
-import React from 'react'
-import './App.css'
-import ParentComponent from './components/ParentComponent'
+import React from 'react';
+import './App.css';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
 	return (
@@ -10,4 +10,4 @@ function App() {
 	)
 }
 
-export default App
+export default App;

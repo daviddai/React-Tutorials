@@ -1,19 +1,21 @@
-import React, { useState, useCallback } from 'react'
-import Count from './Count'
-import Button from './Button'
-import Title from './Title'
+import React, { useState, useCallback } from 'react';
+import Count from './Count';
+import Button from './Button';
+import Title from './Title';
 
 function ParentComponent() {
-	const [age, setAge] = useState(25)
-	const [salary, setSalary] = useState(50000)
+	const [age, setAge] = useState(25);
+	const [salary, setSalary] = useState(50000);
 
+	// useCallback caches the callback function that only changes
+	// when one of the dependencies has changed
 	const incrementAge = useCallback(() => {
 		setAge(age + 1)
-	}, [age])
+	}, [age]);
 
 	const incrementSalary = useCallback(() => {
 		setSalary(salary + 1000)
-	}, [salary])
+	}, [salary]);
 
 	return (
 		<div>
@@ -26,4 +28,4 @@ function ParentComponent() {
 	)
 }
 
-export default ParentComponent
+export default ParentComponent;
